@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Resumes</title>
+    <link rel="stylesheet" href="a1.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 20px;
+            text-align: center;
+        }
+        header nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+            padding: 5px 15px;
+            background-color: #555;
+            border-radius: 5px;
+        }
+        header nav a:hover {
+            background-color: #888;
+        }
+        section {
+            margin: 20px;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            flex-grow: 1;
+        }
+        h2 {
+            color: #2c3e50;
+            text-align: center;
+        }
+        .resume-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+        .student-resume {
+            background-color: #ecf0f1;
+            border-radius: 8px;
+            padding: 20px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+        .student-resume h3 {
+            color: #34495e;
+            margin: 10px 0;
+        }
+        .student-resume a {
+            color: #3498db;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .student-resume a:hover {
+            color: #2980b9;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #333;
+            color: white;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Student Resumes</h1>
+    <nav>
+        <a href="a1.html">Home</a>
+    </nav>
+</header>
+
+<section>
+    <h2>Click on the student name to view their bio-data and resume:</h2>
+
+    <div class="resume-container">
+        <!-- List of student names, linking to their full resumes -->
+        <div class="student-resume">
+            <h3><a href="std1.html">Anusha D Walikar</a></h3>
+        </div>
+        <div class="student-resume">
+            <h3><a href="std2.html">Bindu Shree E</a></h3>
+        </div>
+        <div class="student-resume">
+            <h3><a href="std3.html">Deepika S</a></h3>
+        </div>
+        <div class="student-resume">
+            <h3><a href="std4.html">Himavarshini V</a></h3>
+        </div>
+        <div class="student-resume">
+            <h3><a href="std5.html">Hinduja RP</a></h3>
+        </div>
+        <div class="student-resume">
+            <h3><a href="std6.html">Hithaishi G</a></h3>
+        </div>
+    </div>
+</section>
+
+<!-- Footer is at the bottom -->
+<footer>
+    <p>&copy; 2024 Student Portfolio</p>
+</footer>
+
+</body>
+</html>
